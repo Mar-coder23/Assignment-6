@@ -10,7 +10,7 @@ export default function EditPaintingForm({ current, update }) {
 
   return (
     <section className="paintingForm">
-      <img src={"paintings/" + id + ".jpg"} alt={title} />
+      <img src={`/paintings/${current.id}.jpg`} alt={current.title} />
       <div>
         <label>Title</label>
         <input type="text" name="title" value={title} onChange={handleInputChange} />

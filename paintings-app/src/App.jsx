@@ -1,10 +1,11 @@
 import { useState } from "react";
 import Header from "./Header";
 import PaintingList from "./PaintingList";
+import PaintingListItem from "./PaintingListItem";
 import EditPaintingForm from "./EditPaintingForm";
 
+
 export default function App() {
-  // initial data (like in your HTML example)
   const initialData = [
     { id: "016060", title: "Girl Arranging Her Hair", artist: "Mary Cassatt", year: 1886 },
     { id: "019160", title: "Farmhouse in Provence", artist: "Vincent Van Gogh", year: 1888 },

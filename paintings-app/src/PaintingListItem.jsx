@@ -5,7 +5,7 @@ export default function PaintingListItem({ painting, current, change }) {
 
   return (
     <div className={classCombo} onClick={handleSelect}>
-      <img src={"paintings/square/" + painting.id + ".jpg"} alt={painting.title} />
+      <img src={`/paintings/${painting.id}.jpg`} alt={painting.title} />
       <h3>{painting.title}</h3>
       <p>{painting.artist}</p>
       <p>{painting.year}</p>

@@ -182,3 +182,8 @@
     border-right-color: var(--border);
   }
 }
+img {
+   width: 3em;
+   display: block;
+   box-shadow: 0 calc(var(--shadow-soft) * .3px) calc(var(--shadow-soft) * 1.1px) rgba(0,0,0,0.1),0 calc(var(--shadow-soft) * .6px) calc(var(--shadow-soft) * 1.2px) rgba(0,0,0,0.1),0 calc(var(--shadow-soft) * 1.2px) calc(var(--shadow-soft) * 1.4px) rgba(0,0,0,0.1),0 calc(var(--shadow-soft) * 2.4px) calc(var(--shadow-soft) * 1.6px) rgba(0,0,0,0.1); 
+}

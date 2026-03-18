@@ -1,10 +1,10 @@
-import PaintingList from "./PaintingList";
+import PaintingListItem from "./PaintingListItem";
 
 export default function PaintingList({ paintings, current, change }) {
   return (
     <section className="paintingList">
-      {paintings.map(p => (
-        <PaintingList
+      {paintings.map((p) => (
+        <PaintingListItem
           key={p.id}
           painting={p}
           current={current}
